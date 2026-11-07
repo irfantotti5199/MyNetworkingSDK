@@ -1,0 +1,103 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MyNetworkingSDK",
+    "printedName": "MyNetworkingSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyNetworkingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GreetingManager",
+        "printedName": "GreetingManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GreetingManager",
+                "printedName": "MyNetworkingSDK.GreetingManager",
+                "usr": "s:15MyNetworkingSDK15GreetingManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MyNetworkingSDK15GreetingManagerCACycfc",
+            "mangledName": "$s15MyNetworkingSDK15GreetingManagerCACycfc",
+            "moduleName": "MyNetworkingSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MyNetworkingSDK15GreetingManagerC8sayHelloSSyF",
+            "mangledName": "$s15MyNetworkingSDK15GreetingManagerC8sayHelloSSyF",
+            "moduleName": "MyNetworkingSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15MyNetworkingSDK15GreetingManagerC",
+        "mangledName": "$s15MyNetworkingSDK15GreetingManagerC",
+        "moduleName": "MyNetworkingSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyNetworkingSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
